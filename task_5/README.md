@@ -11,7 +11,7 @@ A simple To-Do List app built using Flutter that allows users to manage their ta
 - **User-Friendly Design**: Basic styling for an intuitive user experience.
 
 ## Screenshots
-![App Screenshot Placeholder](https://via.placeholder.com/800x400?text=Add+Screenshots+Here)
+![App Screenshot Placeholder](Screenshot_28.png)
 
 ## Installation
 1. Clone the repository:
