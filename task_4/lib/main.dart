@@ -8,6 +8,8 @@ void main() {
 }
 
 class FoodApp extends StatefulWidget {
+  const FoodApp({super.key});
+
   @override
   _FoodAppState createState() => _FoodAppState();
 }
@@ -15,7 +17,7 @@ class FoodApp extends StatefulWidget {
 class _FoodAppState extends State<FoodApp> {
   int _selectedIndex = 0;
   bool _isGridView = true; // Default view is GridView
-  List<String> _cartItems = []; // To store cart items
+  final List<String> _cartItems = []; // To store cart items
 
   final List<Widget> _screens = [];
 

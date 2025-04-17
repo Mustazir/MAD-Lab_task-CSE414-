@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CartScreen extends StatelessWidget {
   final List<String> cartItems;
 
-  CartScreen({required this.cartItems});
+  const CartScreen({super.key, required this.cartItems});
 
   @override
   Widget build(BuildContext context) {

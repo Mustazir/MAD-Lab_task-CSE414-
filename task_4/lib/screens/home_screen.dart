@@ -5,7 +5,7 @@ class HomeScreen extends StatelessWidget {
   final bool isGridView;
   final Function(String) addToCart;
 
-  const HomeScreen({required this.isGridView, required this.addToCart});
+  const HomeScreen({super.key, required this.isGridView, required this.addToCart});
 
   @override
   Widget build(BuildContext context) {

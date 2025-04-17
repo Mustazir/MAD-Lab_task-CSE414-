@@ -5,6 +5,8 @@ void main() {
 }
 
 class ToDoApp extends StatelessWidget {
+  const ToDoApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,6 +21,8 @@ class ToDoApp extends StatelessWidget {
 }
 
 class ToDoHomePage extends StatefulWidget {
+  const ToDoHomePage({super.key});
+
   @override
   _ToDoHomePageState createState() => _ToDoHomePageState();
 }
